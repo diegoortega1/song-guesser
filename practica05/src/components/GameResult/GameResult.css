@@ -1,0 +1,31 @@
+.game-result {
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+}
+
+.game-result__score {
+    justify-self: flex-end;
+}
+
+.game-result__top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.game-result_options {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.game-result_options button {
+    margin-top: 1rem;
+    width: 100%;
+}
